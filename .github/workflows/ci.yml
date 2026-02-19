@@ -9,3 +9,4 @@ jobs:
     with:
       component: frontend
       appType: nginx
+
