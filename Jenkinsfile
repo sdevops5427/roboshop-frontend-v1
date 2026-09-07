@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Tag Image') {
             steps {
-                sh "docker tag cart roboshop0088.azurecr.io/frontend:latest"
+                sh "docker tag frontend roboshop0088.azurecr.io/frontend:latest"
             }
         }
         stage('Push Image') {
